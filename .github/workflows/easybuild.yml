@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: eessi/github-action-eessi@v3
-    - name: Testi via EESSI-extend
+    - name: Test via EESSI-extend
       run: |
         export OMPI_MCA_rmaps_base_oversubscribe=1
         module load EESSI-extend
