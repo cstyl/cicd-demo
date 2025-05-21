@@ -2,8 +2,6 @@ name: Build via EasyBuild on x86 and Arm
 on:
   workflow_dispatch:  # Allows manual triggering
   push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
