@@ -20,7 +20,6 @@ jobs:
     - uses: eessi/github-action-eessi@v3
     - name: Test via EESSI-extend
       run: |
-        export OMPI_MCA_rmaps_base_oversubscribe=1
         module load EESSI-extend
         unset EASYBUILD_DEBUG
         eb -l --software-commit=$GITHUB_SHA easybuild/software-project.eb
