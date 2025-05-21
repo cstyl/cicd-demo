@@ -14,8 +14,8 @@ toolchain = {'name': 'gompi', 'version': '2023b'}
 sources = [{
     'filename': '%(namelower)s-%(software_commit)s.tar.xz',
     'git_config': {
-        'url': 'https://github.com/ocaisa',
-        'repo_name': 'temp_software_project',
+        'url': 'https://github.com/EESSI',
+        'repo_name': 'cicd-demo',
         'commit': '%(software_commit)s',
     },
 }]
