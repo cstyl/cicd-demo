@@ -7,4 +7,4 @@ build:
     - module load EESSI-extend
     - unset EASYBUILD_DEBUG
     # Build and test
-    - eb -l --software-commit $CI_COMMIT_SHA easybuild/software-project.eb
+    - eb --logtostdout --software-commit $CI_COMMIT_SHA easybuild/cicd-demo.eb
