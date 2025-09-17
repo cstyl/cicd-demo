@@ -20,7 +20,7 @@ jobs:
         run: |
           module load HDF5/1.14.3-gompi-2023b
           module load CMake/3.27.6-GCCcore-13.2.0
-          export LD_RUN_PATH=$LIBRARY_PATH:$EBROOTGCCCORE/lib64
+          module load buildenv/default-foss-2023b
           mkdir build
           cd build
           cmake ..
